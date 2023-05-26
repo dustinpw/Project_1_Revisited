@@ -12,7 +12,7 @@ To help the retailer understand the properties of products and outlets that play
 
 ### Data:
 <p align="center">
-  <img src="/png/download_1.png" width="60%" height="60%">
+  <img src="/png/download_3.png" width="60%" height="60%">
 </p>
 
 
@@ -27,11 +27,17 @@ To help the retailer understand the properties of products and outlets that play
 
 
 #### Heatmap of all numeric columns in dataset
-![sample image]((download_1 (1).png))
+<p align="center">
+  <img src="/png/download_1.png" width="60%" height="60%">
+</p>
+
 
 > The heatmap the correlation of the numeric columns of the dataset. There is not much correleation, but Item_MRP and Item_Outlet_Sales have the greatest correlation.
 #### Scatterplot of MRP and Item Outlet Sales
-![sample image](download_2.png)
+<p align="center">
+  <img src="/png/download_2.png" width="60%" height="60%">
+</p>
+
 
 > To expand further on the correlation mentioned above, the scatter plot below confirms that as Item_MRP increases, so does Item_Outlet_Sales. This is an example of a positive correlation.
 ## Model
@@ -52,3 +58,24 @@ I recommend using the Regression Tree Model to predict sales. The R2 score for t
 
 
 For any additional questions, please provide a comment.
+
+## Importances & Coefficients
+
+<p align="center">
+  <img src="/png/LR_Top3.png" width="75%" height="75%">
+</p>
+
+The top 3 most impactful features and the interpretations of their coefficients are as follows:
+- If the store is classified as Outlet_Type_Supermarket Type3, the model will increase Item_Outlet_Sales by $2091.64
+
+- If the store is classified as Outlet_Size_High, the model will increase the Item_Outlet_Sales by $614.94
+
+- If the store is classified as Outlet_Type_Grocery Store, the model will decrease the Item_Outlet_Sales by $1526.50
+
+<p align="center">
+  <img src="/png/Dec_Tree_top5.png" width="75%" height="75%">
+</p>
+
+The top 5 most important features for the model are `Item_MRP`, `Outlet_Type_Grocery Store`, `Outlet_Type_Supermarket Type3`, `Outlet_Establishment_Year`, `Outlet_Type_Supermarket Type1`. 
+
+- The most important of these 5 is `Item_MRP` and the least important is `Outlet_Type_Supermarket Type1`. Any feature outside of these 5 are unimportant features for the model.
