@@ -73,7 +73,7 @@ The top 3 most impactful features and the interpretations of their coefficients 
 - If the store is classified as Outlet_Type_Grocery Store, the model will decrease the Item_Outlet_Sales by $1526.50
 
 <p align="center">
-  <img src="/png/Dec_Tree_top5.png" width="75%" height="75%">
+  <img src="/png/Dec_tree_top5.png" width="75%" height="75%">
 </p>
 
 The top 5 most important features for the model are `Item_MRP`, `Outlet_Type_Grocery Store`, `Outlet_Type_Supermarket Type3`, `Outlet_Establishment_Year`, `Outlet_Type_Supermarket Type1`. 
