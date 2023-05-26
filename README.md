@@ -9,7 +9,7 @@ To help the retailer understand the properties of products and outlets that play
 
 
 ### Data:
-![sample image](download_3 (1).png)
+![sample image](download_3(1).png)
 
 
 ## Methods
