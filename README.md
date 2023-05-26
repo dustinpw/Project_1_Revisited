@@ -23,7 +23,7 @@ To help the retailer understand the properties of products and outlets that play
 
 
 #### Heatmap of all numeric columns in dataset
-![sample image](download_1.png)
+![sample image](download_1 1.png)
 
 > The heatmap the correlation of the numeric columns of the dataset. There is not much correleation, but Item_MRP and Item_Outlet_Sales have the greatest correlation.
 #### Scatterplot of MRP and Item Outlet Sales
