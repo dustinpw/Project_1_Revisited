@@ -117,4 +117,19 @@ Since the target feature we are analyzing is the Outlet Sales, I decided to use 
 
 
 - Both the Least Sales and Highest Sales top 3 influential features are the same. 
-- In the highest sales, it shows 4 specific features that negatively impact the total sales amount.
+- In the highest sales, it shows 2 additional features that negatively impact the total sales amount.
+
+
+## Individual Force Plot 
+
+<p align="center">
+  <img src="/png/least.png" width="75%" height="75%">
+</p>
+
+- Accoriding to SHAP, Outlet Type Grocery Store and Item MRP provided the greatest influence to sales
+- 
+<p align="center">
+  <img src="/png/highest.png" width="75%" height="75%">
+</p>
+
+- Accoriding to SHAP, Outlet Type Grocery Store, outlet type supermarket, and Item MRP provided the greatest influence to sales
