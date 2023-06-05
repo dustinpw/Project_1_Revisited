@@ -91,7 +91,7 @@ Both the top 3 most impactful features found by shap vs feature importance are t
 
 
 <p align="center">
-  <img src="/png/dot__sum.png" width="75%" height="75%">
+  <img src="/png/dot_sum.png" width="75%" height="75%">
 </p>
 
 Item_MRP, Outlet_Type_Grocery Store, Outlet_Type_Supermarket Type3 are the most important features.
