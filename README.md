@@ -101,3 +101,20 @@ Item_MRP, Outlet_Type_Grocery Store, Outlet_Type_Supermarket Type3 are the most 
 - A grocery store is likley to predict lower sales
 
 - A super market type 3 is likely to predict higher sales
+
+
+## Lime Tabular explantions 
+Since the target feature we are analyzing is the Outlet Sales, I decided to use 2 samples. 1 sample is from a high outlet sales and the other sample is from a low outlet sales.
+
+
+<p align="center">
+  <img src="/png/least.png" width="75%" height="75%">
+</p>
+
+<p align="center">
+  <img src="/png/highest.png" width="75%" height="75%">
+</p>
+
+
+- Both the Least Sales and Highest Sales top 3 influential features are the same. 
+- In the highest sales, it shows 4 specific features that negatively impact the total sales amount.
