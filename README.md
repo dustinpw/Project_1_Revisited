@@ -108,11 +108,11 @@ Since the target feature we are analyzing is the Outlet Sales, I decided to use 
 
 
 <p align="center">
-  <img src="/png/least.png" width="75%" height="75%">
+  <img src="/png/lim_least.png" width="75%" height="75%">
 </p>
 
 <p align="center">
-  <img src="/png/highest.png" width="75%" height="75%">
+  <img src="/png/lim_high.png" width="75%" height="75%">
 </p>
 
 
