@@ -127,7 +127,7 @@ Since the target feature we are analyzing is the Outlet Sales, I decided to use 
 </p>
 
 - Accoriding to SHAP, Outlet Type Grocery Store and Item MRP provided the greatest influence to sales
-- 
+
 <p align="center">
   <img src="/png/highest.png" width="75%" height="75%">
 </p>
