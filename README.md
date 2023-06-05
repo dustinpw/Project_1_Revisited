@@ -79,3 +79,25 @@ The top 3 most impactful features and the interpretations of their coefficients 
 The top 5 most important features for the model are `Item_MRP`, `Outlet_Type_Grocery Store`, `Outlet_Type_Supermarket Type3`, `Outlet_Establishment_Year`, `Outlet_Type_Supermarket Type1`. 
 
 - The most important of these 5 is `Item_MRP` and the least important is `Outlet_Type_Supermarket Type1`. Any feature outside of these 5 are unimportant features for the model.
+
+
+## SHAP Summary Plots for Global Explanations
+
+<p align="center">
+  <img src="/png/bar_sum.png" width="75%" height="75%">
+</p>
+
+Both the top 3 most impactful features found by shap vs feature importance are the exact same.
+
+
+<p align="center">
+  <img src="/png/dot__sum.png" width="75%" height="75%">
+</p>
+
+Item_MRP, Outlet_Type_Grocery Store, Outlet_Type_Supermarket Type3 are the most important features.
+
+- If the there is a higher Item MRP the model is likely to predict higher sales
+
+- A grocery store is likley to predict lower sales
+
+- A super market type 3 is likely to predict higher sales
